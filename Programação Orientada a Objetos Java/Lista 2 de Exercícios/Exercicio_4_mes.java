@@ -7,7 +7,7 @@ public class Exercicio_4_mes {
     public static void main(String[] args) {
         int num;
         Scanner ler = new Scanner(System.in);
-        System.out.print("Digite o número do mês do ano: ");
+        System.out.print("Digite o número do mês que você deseja saber o nome: ");
         num=ler.nextInt();
         System.out.println();
         switch(num){
