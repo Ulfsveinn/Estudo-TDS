@@ -15,7 +15,7 @@ public class Exercicio_5_idade_pessoas {
         }else{
             i17++;
         }
-        }while(menu<3);
+        }while(menu<20);
         
         System.out.println("\n"+i18+ " são maior(es) de idade.");
         System.out.println(i17+ " são menor(es) de idade.");
