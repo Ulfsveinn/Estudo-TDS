@@ -43,7 +43,21 @@ public class TestarCliente {
         System.out.println("o meu nome é: "+c4.getNome());
         System.out.println("O meu endereço é: "+c4.getEndereco());
          System.out.println("sua renda é: "+c4.getRenda());
-         
+
+        ContaCorrente cc1 = new ContaCorrente();
+              // - aqui eu chamei um objeto da classe, dá certo, explicado no método
+        //System.out.println("Quantidades: "+cc1.getQtdContas());
+           // ContaCorrente cc2 = new ContaCorrente();
+        //System.out.println("Quantidades: "+cc2.getQtdContas());
+            //ContaCorrente cc3 = new ContaCorrente();
+        //System.out.println("Quantidades: "+cc3.getQtdContas());
+            
+            ContaCorrente cc4 = new ContaCorrente(); 
+            ContaCorrente cc5 = new ContaCorrente(); 
+            
+            //int x = ContaCorrente.getQtdContas();
+            // - aqui eu chamei a classe toda e atribuí o valor à variável x
+            System.out.println("Quantidade: "+ContaCorrente.COD_OPERACAO);
          
     }
 }
