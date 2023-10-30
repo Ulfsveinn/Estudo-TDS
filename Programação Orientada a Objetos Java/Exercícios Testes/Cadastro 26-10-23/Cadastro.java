@@ -14,7 +14,7 @@ public class Cadastro {
         String nome;
         int idade,resposta2;
         while (menu) {
-            System.out.println("\n1) Cadastrar Pessoa\n2) Buscar Pessoa\n3) Incrementar Idade\n4) Excluir Pessoa\n5) Listar Pessoa\n6) Listar Pessoas de Idade (X)\n7)FazerAniversario \n0) Sair");
+            System.out.println("\n1) Cadastrar Pessoa\n2) Buscar Pessoa\n3) Fazer Aniversario\n4) Excluir Pessoa\n5) Listar Pessoa\n6) Listar Pessoas de Idade (X)\n7) Incrementar Idade\n0) Sair");
             try {
                 resposta = ler.nextInt();
             } catch (InputMismatchException e) {
@@ -68,112 +68,121 @@ public class Cadastro {
                             Pessoa p2 = new PJ(cnpj, nome, idade);
                             cadastro.add(p2);
                         } else if(resposta==2){
-                               Pessoa p2 = new PF(nome,idade);  
+                               Pessoa p2 = new PJ(nome,idade);  
                                cadastro.add(p2);
                              }
                         }
-                            
-                   
                     break;
                 case 2:
-                    System.out.print("\nInforme O nome da Pessoa que você deseja buscar: ");
-                    ler.nextLine();
-                    String nome2 = ler.nextLine();
-                    if (cadastro.isEmpty()) {
-                       System.out.println("Nenhum cadastro encontrado");
-                    } else {
-                        for (Pessoa p : cadastro) {
-                            if (p.getNome().equals(nome2)) {
-                                System.out.println("Dados Da Pessoa: ");
-                                System.out.println("Nome: "+p.getNome()+"\nIdade: "+p.getIdade());
-                            }
-                        }
-                    }
-                    break;
-                     //Da o mesmo resultado do case 7, mas é feito de uma forma diferente.
-                case 3:
-                    if (cadastro.isEmpty()) {
-                        System.out.println("Nenhum cadastro!");
-                    } else {
-                        System.out.println("Informe o nome: ");
+                   if (cadastro.isEmpty()) {
+                           System.out.println("Nenhum cadastro encontrado");
+                        } else {
+                            System.out.print("\nInforme O nome da Pessoa que você deseja buscar: ");
                         ler.nextLine();
-
-                        String nome3 = ler.nextLine();
-
-                        for (int i = 0; i < cadastro.size(); i++) {
-                            if (cadastro.get(i).getNome().equals(nome3)) {
-                                if (cadastro.get(i) instanceof PF) {
-                                    ((PF) cadastro.get(i)).fazerAniversario();
-                                    System.out.println("Idade incrementada.");
-                                } else if (cadastro.get(i) instanceof PJ) {
-                                    ((PJ) cadastro.get(i)).fazerAniversario();
-                                    System.out.println("Idade incrementada.");
+                        String nome2 = ler.nextLine();
+                            for (Pessoa p : cadastro) {
+                                if (p.getNome().equals(nome2)) {
+                                    System.out.println("Dados Da Pessoa: ");
+                                    System.out.println("Nome: "+p.getNome()+"\nIdade: "+p.getIdade());
+                                }else{
+                                    System.out.println("Pessoa não encontrada!");
                                 }
                             }
                         }
-                    }
                     break;
-                case 4:
-                    System.out.print("\nInforme O nome da Pessoa que você deseja Excluir: ");
-                    ler.nextLine();
-                    String nome3 = ler.nextLine();
-                    if (cadastro.isEmpty()) {
+                     //Da o mesmo resultado do case 7, mas é feito de uma forma diferente.
+                case 3:
+                  if (cadastro.isEmpty()) {
                         System.out.println("Nenhum cadastro encontrado");
                     } else {
-                        for (Pessoa p : cadastro) {
-                            if (p.getNome().equals(nome3)) {
-                                cadastro.remove(p);
-                                System.out.println("\nPessoa Excluida com Sucesso!");
-                                break;
-                            }
-                        }
-                    }
-                    break;
-                case 5:
-                    if (cadastro.isEmpty()) {
-                        System.out.println("Nenhum cadastro encontrado");
-
-                    } else {
-                        for (Pessoa p : cadastro) {
-                            System.out.println(p.dados());
-                        }
-                    }
-                    break;
-                case 6:
-                    System.out.println("Informe a idade: ");
-                    int idade2 = ler.nextInt();
-                    if (cadastro.isEmpty()) {
-                        System.out.println("Nenhuma Pessoa cadastrada com essa idade!");
-                    } else {
-                        for (Pessoa p : cadastro) {
-                            if (p.getIdade() == (idade2)) {
-                                System.out.println(p.dados());
-                            }
-                        }
-
-                    }
-                    break;
-                    //Da o mesmo resultado do case 3, mas é feito de uma forma diferente.
-                case 7:
-                    System.out.println("Informe o nome da pessoa:  ");
+                        System.out.print("Informe o nome da pessoa:  ");
                     ler.nextLine();
                     nome = ler.nextLine();
-                    if (cadastro.isEmpty()) {
-                        System.out.println("Nenhum cadastro encontrado");
-                    } else {
                         for (Pessoa p : cadastro) {
                             if (p.getNome().equals(nome)) {
                                 if (p instanceof PF) {
                                     ((PF) p).fazerAniversario();
-                                    System.out.println("Idade incrementada.");
+                                    System.out.println("Idade Atualizada.");
                                 } else {
-                                    ((PJ) p).fazerAniversario();
+                                    System.out.print("Informe a idade que deseja Incrementar: ");
+                                    int idade3 = ler.nextInt();
+                                    ((PJ) p).fazerAniversario(idade3);
                                     System.out.println("Idade incrementada.");
                                 }
                             }
 
                         }
                     }
+                    break;
+                case 4:
+                    if (cadastro.isEmpty()) {
+                            System.out.println("Nenhum cadastro encontrado");
+                        } else {
+                            System.out.print("\nInforme O nome da Pessoa que você deseja Excluir: ");
+                        ler.nextLine();
+                        String nome3 = ler.nextLine();
+                            for (Pessoa p : cadastro) {
+                                if (p.getNome().equals(nome3)) {
+                                    cadastro.remove(p);
+                                    System.out.println("\nPessoa Excluida com Sucesso!");
+                                    break;
+                                }
+                            }
+                        }
+                    break;
+                case 5:
+                     if (cadastro.isEmpty()) {
+                            System.out.println("Nenhum cadastro encontrado");
+
+                        } else {
+                            for (Pessoa p : cadastro) {
+                                if(p instanceof PJ){
+                                    System.out.println( ((PJ) p).dados());
+                                }else{
+                                    System.out.println(((PF) p).dados());
+                                }
+                            }
+                        }
+                    break;
+                case 6:
+                     if (cadastro.isEmpty()) {
+                            System.out.println("Nenhuma Pessoa cadastrada!");
+                        } else {
+                            System.out.print("Informe a idade: ");
+                         idade2 = ler.nextInt();
+                            for (Pessoa p : cadastro) {
+                                if (p.getIdade() == (idade2)) {
+                                    System.out.println(p.dados());
+                                }
+                            }
+                        }
+                    break;
+                    //Da o mesmo resultado do case 3, mas é feito de uma forma diferente.
+                case 7:
+                    if (cadastro.isEmpty()) {
+                            System.out.println("Nenhum cadastro encontrado");
+                        } else {
+                            System.out.print("Informe o nome da pessoa:  ");
+                        ler.nextLine();
+                        nome = ler.nextLine();
+                            for (Pessoa p : cadastro) {
+                                if (p.getNome().equals(nome)) {
+                                    if (p instanceof PF) {
+                                        System.out.print("Informe a idade que deseja Incrementar: ");
+                                        idade2 = ler.nextInt();
+                                        ((PF) p).fazerAniversario(idade2);
+                                        System.out.println("Idade incrementada.");
+                                        break;
+                                    } else {
+                                        System.out.print("Informe a idade que deseja Incrementar: ");
+                                        idade2 = ler.nextInt();
+                                        ((PJ) p).fazerAniversario(idade2);
+                                        System.out.println("Idade incrementada.");
+                                        break;
+                                    }
+                                }
+                            }
+                        }
                     break;
                 case 0:
                     menu = false;
@@ -182,6 +191,6 @@ public class Cadastro {
                     System.out.println("Resposta Inválida, Tente Novamente!");
             }
         }
-
+            ler.close();
     }
 }
