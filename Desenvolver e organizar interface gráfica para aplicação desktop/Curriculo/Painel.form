@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JCheckBoxMenuItem" name="jCheckBoxMenuItem1">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="jCheckBoxMenuItem1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBoxMenuItem" name="jCheckBoxMenuItem2">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="jCheckBoxMenuItem2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenu" name="jMenu1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu1"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPopupMenu" name="jPopupMenu1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="abas" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="abas" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="abas">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Abas">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Dados Pessoais">
+                <Property name="tabTitle" type="java.lang.String" value="Dados Pessoais"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton2" min="-2" pref="170" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTnome" min="-2" pref="237" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="JTFsobrenome" pref="287" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="JTFendereço" alignment="0" min="-2" pref="691" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="JTFcidade" alignment="0" min="-2" pref="225" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="JTFestado" alignment="0" min="-2" pref="225" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="JTFcep" min="-2" pref="211" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="JTFtelefone" min="-2" pref="335" max="-2" attributes="0"/>
+                                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="JCBestadocivil" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="JCBdia" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="JCBmes" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="JCBano" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="JTFemail" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="JTFnacionalidade" alignment="0" max="32767" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="JCBcnh" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="JBproximo" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="JTnome" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFsobrenome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="59" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton2" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JTFendereço" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="JTFcidade" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="JTFcep" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="JTFestado" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="JTFtelefone" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="JTFemail" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="JTFnacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="JCBmes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="JCBano" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="JCBdia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JCBestadocivil" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JCBcnh" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="JBproximo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTnome">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTnomeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JBproximo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Proximo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBproximoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sobrenome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFsobrenome">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFsobrenomeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Endere&#xe7;o: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFendere&#xe7;o">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFendere&#xe7;oActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFcidade">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFcidadeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Estado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFestado">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFestadoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CEP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFcep">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFcepActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Telefone"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFtelefone">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFtelefoneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFemail">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFemailActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="E-mail"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFnacionalidade">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFnacionalidadeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nacionalidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data de Nascimento "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Estado Civil "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carteira Nacional de Habilita&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBmes">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="13">
+                    <StringItem index="0" value="M&#xea;s()"/>
+                    <StringItem index="1" value="1"/>
+                    <StringItem index="2" value="2"/>
+                    <StringItem index="3" value="3"/>
+                    <StringItem index="4" value="4"/>
+                    <StringItem index="5" value="5"/>
+                    <StringItem index="6" value="6"/>
+                    <StringItem index="7" value="7"/>
+                    <StringItem index="8" value="8"/>
+                    <StringItem index="9" value="9"/>
+                    <StringItem index="10" value="10"/>
+                    <StringItem index="11" value="11"/>
+                    <StringItem index="12" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBmesActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBdia">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="32">
+                    <StringItem index="0" value="Dia()"/>
+                    <StringItem index="1" value="1"/>
+                    <StringItem index="2" value="2"/>
+                    <StringItem index="3" value="3"/>
+                    <StringItem index="4" value="4"/>
+                    <StringItem index="5" value="5"/>
+                    <StringItem index="6" value="6"/>
+                    <StringItem index="7" value="7"/>
+                    <StringItem index="8" value="8"/>
+                    <StringItem index="9" value="9"/>
+                    <StringItem index="10" value="10"/>
+                    <StringItem index="11" value="11"/>
+                    <StringItem index="12" value="12"/>
+                    <StringItem index="13" value="13"/>
+                    <StringItem index="14" value="14"/>
+                    <StringItem index="15" value="15"/>
+                    <StringItem index="16" value="16"/>
+                    <StringItem index="17" value="17"/>
+                    <StringItem index="18" value="18"/>
+                    <StringItem index="19" value="19"/>
+                    <StringItem index="20" value="20"/>
+                    <StringItem index="21" value="21"/>
+                    <StringItem index="22" value="22"/>
+                    <StringItem index="23" value="23"/>
+                    <StringItem index="24" value="24"/>
+                    <StringItem index="25" value="25"/>
+                    <StringItem index="26" value="26"/>
+                    <StringItem index="27" value="27"/>
+                    <StringItem index="28" value="28"/>
+                    <StringItem index="29" value="29"/>
+                    <StringItem index="30" value="30"/>
+                    <StringItem index="31" value="31"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBdiaActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBano">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="66">
+                    <StringItem index="0" value="Ano()"/>
+                    <StringItem index="1" value="1960"/>
+                    <StringItem index="2" value="1961"/>
+                    <StringItem index="3" value="1962"/>
+                    <StringItem index="4" value="1963"/>
+                    <StringItem index="5" value="1964"/>
+                    <StringItem index="6" value="1965"/>
+                    <StringItem index="7" value="1966"/>
+                    <StringItem index="8" value="1967"/>
+                    <StringItem index="9" value="1968"/>
+                    <StringItem index="10" value="1969"/>
+                    <StringItem index="11" value="1970"/>
+                    <StringItem index="12" value="1971"/>
+                    <StringItem index="13" value="1972"/>
+                    <StringItem index="14" value="1973"/>
+                    <StringItem index="15" value="1974"/>
+                    <StringItem index="16" value="1975"/>
+                    <StringItem index="17" value="1976"/>
+                    <StringItem index="18" value="1977"/>
+                    <StringItem index="19" value="1978"/>
+                    <StringItem index="20" value="1979"/>
+                    <StringItem index="21" value="1980"/>
+                    <StringItem index="22" value="1981"/>
+                    <StringItem index="23" value="1982"/>
+                    <StringItem index="24" value="1983"/>
+                    <StringItem index="25" value="1984"/>
+                    <StringItem index="26" value="1985"/>
+                    <StringItem index="27" value="1986"/>
+                    <StringItem index="28" value="1987"/>
+                    <StringItem index="29" value="1988"/>
+                    <StringItem index="30" value="1989"/>
+                    <StringItem index="31" value="1990"/>
+                    <StringItem index="32" value="1991"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1993"/>
+                    <StringItem index="35" value="1994"/>
+                    <StringItem index="36" value="1995"/>
+                    <StringItem index="37" value="1996"/>
+                    <StringItem index="38" value="1997"/>
+                    <StringItem index="39" value="1998"/>
+                    <StringItem index="40" value="1999"/>
+                    <StringItem index="41" value="2000"/>
+                    <StringItem index="42" value="2001"/>
+                    <StringItem index="43" value="2002"/>
+                    <StringItem index="44" value="2003"/>
+                    <StringItem index="45" value="2004"/>
+                    <StringItem index="46" value="2005"/>
+                    <StringItem index="47" value="2006"/>
+                    <StringItem index="48" value="2007"/>
+                    <StringItem index="49" value="2008"/>
+                    <StringItem index="50" value="2009"/>
+                    <StringItem index="51" value="2010"/>
+                    <StringItem index="52" value="2011"/>
+                    <StringItem index="53" value="2012"/>
+                    <StringItem index="54" value="2013"/>
+                    <StringItem index="55" value="2014"/>
+                    <StringItem index="56" value="2015"/>
+                    <StringItem index="57" value="2016"/>
+                    <StringItem index="58" value="2017"/>
+                    <StringItem index="59" value="2018"/>
+                    <StringItem index="60" value="2019"/>
+                    <StringItem index="61" value="2020"/>
+                    <StringItem index="62" value="2021"/>
+                    <StringItem index="63" value="2022"/>
+                    <StringItem index="64" value="2023"/>
+                    <StringItem index="65" value="2024"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBanoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBestadocivil">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Selecione()"/>
+                    <StringItem index="1" value="Solteiro"/>
+                    <StringItem index="2" value="Casado"/>
+                    <StringItem index="3" value="Vi&#xfa;vo"/>
+                    <StringItem index="4" value="Divorciado"/>
+                    <StringItem index="5" value="Uni&#xe3;o Estavel"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBestadocivilActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBcnh">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="Selecione()"/>
+                    <StringItem index="1" value="A"/>
+                    <StringItem index="2" value="B"/>
+                    <StringItem index="3" value="C"/>
+                    <StringItem index="4" value="D"/>
+                    <StringItem index="5" value="E"/>
+                    <StringItem index="6" value="N&#xe3;o Habilitado"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBcnhActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Foto"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Forma&#xe7;&#xe3;o">
+                <Property name="tabTitle" type="java.lang.String" value="Forma&#xe7;&#xe3;o"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFinstituicao" min="-2" pref="356" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFlocalInst" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFdiploma" alignment="0" pref="356" max="32767" attributes="0"/>
+                                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JCBsituacao" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JTFcampoDeEstdo" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="JCBmesInicio" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="JCBanoInicio" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="JBproximoFormacao" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="JCBmesTermino" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="JCBanotermino" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="JRBsemData" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFlocalInst" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFinstituicao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFcampoDeEstdo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFdiploma" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="JCBmesInicio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JCBanoInicio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="JCBmesTermino" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JCBanotermino" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JCBsituacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="JRBsemData" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="266" max="32767" attributes="0"/>
+                      <Component id="JBproximoFormacao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Institui&#xe7;&#xe3;o de Ensino"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFinstituicao">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFinstituicaoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Local da Institui&#xe7;&#xe3;o de ensino "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFlocalInst">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFlocalInstActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Campo de estudo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFcampoDeEstdo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFcampoDeEstdoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Diploma"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFdiploma">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFdiplomaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBmesInicio">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="13">
+                    <StringItem index="0" value="M&#xea;s()"/>
+                    <StringItem index="1" value="1"/>
+                    <StringItem index="2" value="2"/>
+                    <StringItem index="3" value="3"/>
+                    <StringItem index="4" value="4"/>
+                    <StringItem index="5" value="5"/>
+                    <StringItem index="6" value="6"/>
+                    <StringItem index="7" value="7"/>
+                    <StringItem index="8" value="8"/>
+                    <StringItem index="9" value="9"/>
+                    <StringItem index="10" value="10"/>
+                    <StringItem index="11" value="11"/>
+                    <StringItem index="12" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBmesInicioActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data de inicio"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBanoInicio">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="66">
+                    <StringItem index="0" value="Ano()"/>
+                    <StringItem index="1" value="1960"/>
+                    <StringItem index="2" value="1961"/>
+                    <StringItem index="3" value="1962"/>
+                    <StringItem index="4" value="1963"/>
+                    <StringItem index="5" value="1964"/>
+                    <StringItem index="6" value="1965"/>
+                    <StringItem index="7" value="1966"/>
+                    <StringItem index="8" value="1967"/>
+                    <StringItem index="9" value="1968"/>
+                    <StringItem index="10" value="1969"/>
+                    <StringItem index="11" value="1970"/>
+                    <StringItem index="12" value="1971"/>
+                    <StringItem index="13" value="1972"/>
+                    <StringItem index="14" value="1973"/>
+                    <StringItem index="15" value="1974"/>
+                    <StringItem index="16" value="1975"/>
+                    <StringItem index="17" value="1976"/>
+                    <StringItem index="18" value="1977"/>
+                    <StringItem index="19" value="1978"/>
+                    <StringItem index="20" value="1979"/>
+                    <StringItem index="21" value="1980"/>
+                    <StringItem index="22" value="1981"/>
+                    <StringItem index="23" value="1982"/>
+                    <StringItem index="24" value="1983"/>
+                    <StringItem index="25" value="1984"/>
+                    <StringItem index="26" value="1985"/>
+                    <StringItem index="27" value="1986"/>
+                    <StringItem index="28" value="1987"/>
+                    <StringItem index="29" value="1988"/>
+                    <StringItem index="30" value="1989"/>
+                    <StringItem index="31" value="1990"/>
+                    <StringItem index="32" value="1991"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1993"/>
+                    <StringItem index="35" value="1994"/>
+                    <StringItem index="36" value="1995"/>
+                    <StringItem index="37" value="1996"/>
+                    <StringItem index="38" value="1997"/>
+                    <StringItem index="39" value="1998"/>
+                    <StringItem index="40" value="1999"/>
+                    <StringItem index="41" value="2000"/>
+                    <StringItem index="42" value="2001"/>
+                    <StringItem index="43" value="2002"/>
+                    <StringItem index="44" value="2003"/>
+                    <StringItem index="45" value="2004"/>
+                    <StringItem index="46" value="2005"/>
+                    <StringItem index="47" value="2006"/>
+                    <StringItem index="48" value="2007"/>
+                    <StringItem index="49" value="2008"/>
+                    <StringItem index="50" value="2009"/>
+                    <StringItem index="51" value="2010"/>
+                    <StringItem index="52" value="2011"/>
+                    <StringItem index="53" value="2012"/>
+                    <StringItem index="54" value="2013"/>
+                    <StringItem index="55" value="2014"/>
+                    <StringItem index="56" value="2015"/>
+                    <StringItem index="57" value="2016"/>
+                    <StringItem index="58" value="2017"/>
+                    <StringItem index="59" value="2018"/>
+                    <StringItem index="60" value="2019"/>
+                    <StringItem index="61" value="2020"/>
+                    <StringItem index="62" value="2021"/>
+                    <StringItem index="63" value="2022"/>
+                    <StringItem index="64" value="2023"/>
+                    <StringItem index="65" value="2024"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBanoInicioActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data de t&#xe9;rmino"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Situa&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="JBproximoFormacao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Proximo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBproximoFormacaoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBanotermino">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="66">
+                    <StringItem index="0" value="Ano()"/>
+                    <StringItem index="1" value="1960"/>
+                    <StringItem index="2" value="1961"/>
+                    <StringItem index="3" value="1962"/>
+                    <StringItem index="4" value="1963"/>
+                    <StringItem index="5" value="1964"/>
+                    <StringItem index="6" value="1965"/>
+                    <StringItem index="7" value="1966"/>
+                    <StringItem index="8" value="1967"/>
+                    <StringItem index="9" value="1968"/>
+                    <StringItem index="10" value="1969"/>
+                    <StringItem index="11" value="1970"/>
+                    <StringItem index="12" value="1971"/>
+                    <StringItem index="13" value="1972"/>
+                    <StringItem index="14" value="1973"/>
+                    <StringItem index="15" value="1974"/>
+                    <StringItem index="16" value="1975"/>
+                    <StringItem index="17" value="1976"/>
+                    <StringItem index="18" value="1977"/>
+                    <StringItem index="19" value="1978"/>
+                    <StringItem index="20" value="1979"/>
+                    <StringItem index="21" value="1980"/>
+                    <StringItem index="22" value="1981"/>
+                    <StringItem index="23" value="1982"/>
+                    <StringItem index="24" value="1983"/>
+                    <StringItem index="25" value="1984"/>
+                    <StringItem index="26" value="1985"/>
+                    <StringItem index="27" value="1986"/>
+                    <StringItem index="28" value="1987"/>
+                    <StringItem index="29" value="1988"/>
+                    <StringItem index="30" value="1989"/>
+                    <StringItem index="31" value="1990"/>
+                    <StringItem index="32" value="1991"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1993"/>
+                    <StringItem index="35" value="1994"/>
+                    <StringItem index="36" value="1995"/>
+                    <StringItem index="37" value="1996"/>
+                    <StringItem index="38" value="1997"/>
+                    <StringItem index="39" value="1998"/>
+                    <StringItem index="40" value="1999"/>
+                    <StringItem index="41" value="2000"/>
+                    <StringItem index="42" value="2001"/>
+                    <StringItem index="43" value="2002"/>
+                    <StringItem index="44" value="2003"/>
+                    <StringItem index="45" value="2004"/>
+                    <StringItem index="46" value="2005"/>
+                    <StringItem index="47" value="2006"/>
+                    <StringItem index="48" value="2007"/>
+                    <StringItem index="49" value="2008"/>
+                    <StringItem index="50" value="2009"/>
+                    <StringItem index="51" value="2010"/>
+                    <StringItem index="52" value="2011"/>
+                    <StringItem index="53" value="2012"/>
+                    <StringItem index="54" value="2013"/>
+                    <StringItem index="55" value="2014"/>
+                    <StringItem index="56" value="2015"/>
+                    <StringItem index="57" value="2016"/>
+                    <StringItem index="58" value="2017"/>
+                    <StringItem index="59" value="2018"/>
+                    <StringItem index="60" value="2019"/>
+                    <StringItem index="61" value="2020"/>
+                    <StringItem index="62" value="2021"/>
+                    <StringItem index="63" value="2022"/>
+                    <StringItem index="64" value="2023"/>
+                    <StringItem index="65" value="2024"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBanoterminoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBmesTermino">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="13">
+                    <StringItem index="0" value="M&#xea;s()"/>
+                    <StringItem index="1" value="1"/>
+                    <StringItem index="2" value="2"/>
+                    <StringItem index="3" value="3"/>
+                    <StringItem index="4" value="4"/>
+                    <StringItem index="5" value="5"/>
+                    <StringItem index="6" value="6"/>
+                    <StringItem index="7" value="7"/>
+                    <StringItem index="8" value="8"/>
+                    <StringItem index="9" value="9"/>
+                    <StringItem index="10" value="10"/>
+                    <StringItem index="11" value="11"/>
+                    <StringItem index="12" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBmesTerminoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBsituacao">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Selecione()"/>
+                    <StringItem index="1" value="Estudando"/>
+                    <StringItem index="2" value="Formado"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBsituacaoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="JRBsemData">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sem data de t&#xe9;rmino"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JRBsemDataActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Experiencia Profissionais">
+                <Property name="tabTitle" type="java.lang.String" value="Experiencia Profissionais"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="JCBanoinicioPro" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFcidadePro" alignment="0" pref="356" max="32767" attributes="0"/>
+                                  <Component id="jLabel34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFtitulocargo" alignment="0" pref="356" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="9" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="JRBtrabalhaja" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="177" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTFestadoPro" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JTFempregador" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JCBanoterminoPRO" pref="347" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="JBProximoProfi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JRBsemExp" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="JRBsemExp" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFempregador" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFtitulocargo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFestadoPro" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JTFcidadePro" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JCBanoinicioPro" min="-2" max="-2" attributes="0"/>
+                          <Component id="JCBanoterminoPRO" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JRBtrabalhaja" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="244" max="32767" attributes="0"/>
+                      <Component id="JBProximoProfi" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Empregador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFempregador">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFempregadorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JBProximoProfi">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Proximo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBProximoProfiActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Estado"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFestadoPro">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFestadoProActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFcidadePro">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFcidadeProActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Titulo do cargo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data de t&#xe9;rmino"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTFtitulocargo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JTFtitulocargoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data de inicio"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="JRBtrabalhaja">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eu trabalho aqui no momento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JRBtrabalhajaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBanoinicioPro">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="66">
+                    <StringItem index="0" value="Ano()"/>
+                    <StringItem index="1" value="1960"/>
+                    <StringItem index="2" value="1961"/>
+                    <StringItem index="3" value="1962"/>
+                    <StringItem index="4" value="1963"/>
+                    <StringItem index="5" value="1964"/>
+                    <StringItem index="6" value="1965"/>
+                    <StringItem index="7" value="1966"/>
+                    <StringItem index="8" value="1967"/>
+                    <StringItem index="9" value="1968"/>
+                    <StringItem index="10" value="1969"/>
+                    <StringItem index="11" value="1970"/>
+                    <StringItem index="12" value="1971"/>
+                    <StringItem index="13" value="1972"/>
+                    <StringItem index="14" value="1973"/>
+                    <StringItem index="15" value="1974"/>
+                    <StringItem index="16" value="1975"/>
+                    <StringItem index="17" value="1976"/>
+                    <StringItem index="18" value="1977"/>
+                    <StringItem index="19" value="1978"/>
+                    <StringItem index="20" value="1979"/>
+                    <StringItem index="21" value="1980"/>
+                    <StringItem index="22" value="1981"/>
+                    <StringItem index="23" value="1982"/>
+                    <StringItem index="24" value="1983"/>
+                    <StringItem index="25" value="1984"/>
+                    <StringItem index="26" value="1985"/>
+                    <StringItem index="27" value="1986"/>
+                    <StringItem index="28" value="1987"/>
+                    <StringItem index="29" value="1988"/>
+                    <StringItem index="30" value="1989"/>
+                    <StringItem index="31" value="1990"/>
+                    <StringItem index="32" value="1991"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1993"/>
+                    <StringItem index="35" value="1994"/>
+                    <StringItem index="36" value="1995"/>
+                    <StringItem index="37" value="1996"/>
+                    <StringItem index="38" value="1997"/>
+                    <StringItem index="39" value="1998"/>
+                    <StringItem index="40" value="1999"/>
+                    <StringItem index="41" value="2000"/>
+                    <StringItem index="42" value="2001"/>
+                    <StringItem index="43" value="2002"/>
+                    <StringItem index="44" value="2003"/>
+                    <StringItem index="45" value="2004"/>
+                    <StringItem index="46" value="2005"/>
+                    <StringItem index="47" value="2006"/>
+                    <StringItem index="48" value="2007"/>
+                    <StringItem index="49" value="2008"/>
+                    <StringItem index="50" value="2009"/>
+                    <StringItem index="51" value="2010"/>
+                    <StringItem index="52" value="2011"/>
+                    <StringItem index="53" value="2012"/>
+                    <StringItem index="54" value="2013"/>
+                    <StringItem index="55" value="2014"/>
+                    <StringItem index="56" value="2015"/>
+                    <StringItem index="57" value="2016"/>
+                    <StringItem index="58" value="2017"/>
+                    <StringItem index="59" value="2018"/>
+                    <StringItem index="60" value="2019"/>
+                    <StringItem index="61" value="2020"/>
+                    <StringItem index="62" value="2021"/>
+                    <StringItem index="63" value="2022"/>
+                    <StringItem index="64" value="2023"/>
+                    <StringItem index="65" value="2024"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBanoinicioProActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JCBanoterminoPRO">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="66">
+                    <StringItem index="0" value="Ano()"/>
+                    <StringItem index="1" value="1960"/>
+                    <StringItem index="2" value="1961"/>
+                    <StringItem index="3" value="1962"/>
+                    <StringItem index="4" value="1963"/>
+                    <StringItem index="5" value="1964"/>
+                    <StringItem index="6" value="1965"/>
+                    <StringItem index="7" value="1966"/>
+                    <StringItem index="8" value="1967"/>
+                    <StringItem index="9" value="1968"/>
+                    <StringItem index="10" value="1969"/>
+                    <StringItem index="11" value="1970"/>
+                    <StringItem index="12" value="1971"/>
+                    <StringItem index="13" value="1972"/>
+                    <StringItem index="14" value="1973"/>
+                    <StringItem index="15" value="1974"/>
+                    <StringItem index="16" value="1975"/>
+                    <StringItem index="17" value="1976"/>
+                    <StringItem index="18" value="1977"/>
+                    <StringItem index="19" value="1978"/>
+                    <StringItem index="20" value="1979"/>
+                    <StringItem index="21" value="1980"/>
+                    <StringItem index="22" value="1981"/>
+                    <StringItem index="23" value="1982"/>
+                    <StringItem index="24" value="1983"/>
+                    <StringItem index="25" value="1984"/>
+                    <StringItem index="26" value="1985"/>
+                    <StringItem index="27" value="1986"/>
+                    <StringItem index="28" value="1987"/>
+                    <StringItem index="29" value="1988"/>
+                    <StringItem index="30" value="1989"/>
+                    <StringItem index="31" value="1990"/>
+                    <StringItem index="32" value="1991"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1993"/>
+                    <StringItem index="35" value="1994"/>
+                    <StringItem index="36" value="1995"/>
+                    <StringItem index="37" value="1996"/>
+                    <StringItem index="38" value="1997"/>
+                    <StringItem index="39" value="1998"/>
+                    <StringItem index="40" value="1999"/>
+                    <StringItem index="41" value="2000"/>
+                    <StringItem index="42" value="2001"/>
+                    <StringItem index="43" value="2002"/>
+                    <StringItem index="44" value="2003"/>
+                    <StringItem index="45" value="2004"/>
+                    <StringItem index="46" value="2005"/>
+                    <StringItem index="47" value="2006"/>
+                    <StringItem index="48" value="2007"/>
+                    <StringItem index="49" value="2008"/>
+                    <StringItem index="50" value="2009"/>
+                    <StringItem index="51" value="2010"/>
+                    <StringItem index="52" value="2011"/>
+                    <StringItem index="53" value="2012"/>
+                    <StringItem index="54" value="2013"/>
+                    <StringItem index="55" value="2014"/>
+                    <StringItem index="56" value="2015"/>
+                    <StringItem index="57" value="2016"/>
+                    <StringItem index="58" value="2017"/>
+                    <StringItem index="59" value="2018"/>
+                    <StringItem index="60" value="2019"/>
+                    <StringItem index="61" value="2020"/>
+                    <StringItem index="62" value="2021"/>
+                    <StringItem index="63" value="2022"/>
+                    <StringItem index="64" value="2023"/>
+                    <StringItem index="65" value="2024"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCBanoterminoPROActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="JRBsemExp">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="N&#xe3;o possuo experi&#xea;ncia"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JRBsemExpActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Resumo">
+                <Property name="tabTitle" type="java.lang.String" value="Resumo"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="660" max="-2" attributes="0"/>
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="428" max="-2" attributes="0"/>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Salvar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="JTAresumo">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
