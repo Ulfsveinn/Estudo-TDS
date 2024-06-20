@@ -1,5 +1,5 @@
-Projeto Intregador 
+#Projeto Integrador 
 
-Este é o link para o projeto que fiz no meu curso Técnico.
+Este é o projeto que fiz no meu curso técnico de desenvolvimento de sistemas
 
 Link: https://github.com/Ulfsveinn/bits-and-bytes/tree/main
